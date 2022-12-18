@@ -1,0 +1,90 @@
+<meta>
+
+ <script src="sourceG.lua" type="shared" cache="false" />
+ <script src="sourceS.lua" type="server" />
+ <script src="sourceC.lua" type="client" cache="false" />
+
+ <script src="shaders/c_detail.lua" type="client" cache="false" />
+ <script src="shaders/motion_c.lua" type="client" cache="false" />
+
+ <file src="files/roboto.ttf" />
+ <file src="files/fontello.ttf" />
+ <file src="files/fontelloasd.ttf" />
+ <file src="files/sfpro.ttf" />
+ <file src="files/fontawsome.ttf" />
+
+ <file src="files/groups.png" />
+ <file src="files/logo.png" />
+ <file src="files/mydatas.png" />
+ <file src="files/own.png" />
+ <file src="files/admins.png" />
+ <file src="files/settings.png" />
+ <file src="files/backarrow.png" />
+ <file src="files/check.png" />
+ <file src="files/cancel.png" />
+
+ <file src="shaders/water.fx" />
+ <file src="shaders/motion.fx" />
+ <file src="shaders/mta-helper.fx" />
+ <file src="shaders/modulation.fx" />
+ <file src="shaders/detail.fx" />
+ <file src="shaders/contrast.fx" />
+ <file src="shaders/car_paint.fx" />
+ <file src="shaders/brightPass.fx" />
+ <file src="shaders/blurV.fx" />
+ <file src="shaders/blurH.fx" />
+ <file src="shaders/bloom_extract.fx" />
+ <file src="shaders/bloom_combine.fx" />
+ <file src="shaders/addBlend.fx" />
+ <file src="shaders/radial_blur.fx" />
+ <file src="shaders/dBlurH.fx" />
+ <file src="shaders/dBlurV.fx" />
+ <file src="shaders/noise.fx" />
+ <file src="shaders/texture.fx" />
+
+ <file src="shaders/images/radial_mask.tga" />
+
+ <file src="shaders/images/vignette1.dds" />
+ <file src="shaders/images/smallnoise3d.dds" />
+ <file src="shaders/images/cube_env256.dds" />
+
+ <file src="shaders/images/dirty.png" />
+ <file src="shaders/images/detail68.png" />
+ <file src="shaders/images/detail63.png" />
+ <file src="shaders/images/detail58.png" />
+ <file src="shaders/images/detail55.png" />
+ <file src="shaders/images/detail35T.png" />
+ <file src="shaders/images/detail29.png" />
+ <file src="shaders/images/detail22.png" />
+ <file src="shaders/images/detail04.png" />
+ <file src="shaders/images/vignette.png" />
+
+ <file src="crosshairs/1.png" />
+ <file src="crosshairs/2.png" />
+ <file src="crosshairs/3.png" />
+ <file src="crosshairs/4.png" />
+ <file src="crosshairs/5.png" />
+ <file src="crosshairs/6.png" />
+ <file src="crosshairs/7.png" />
+ <file src="crosshairs/8.png" />
+ <file src="crosshairs/9.png" />
+ <file src="crosshairs/10.png" />
+
+ <file src="crosshairs/allcrosshair/0.png" />
+ <file src="crosshairs/allcrosshair/1.png" />
+ <file src="crosshairs/allcrosshair/2.png" />
+ <file src="crosshairs/allcrosshair/3.png" />
+ <file src="crosshairs/allcrosshair/4.png" />
+ <file src="crosshairs/allcrosshair/5.png" />
+ <file src="crosshairs/allcrosshair/6.png" />
+ <file src="crosshairs/allcrosshair/7.png" />
+ <file src="crosshairs/allcrosshair/8.png" />
+ <file src="crosshairs/allcrosshair/9.png" />
+ <file src="crosshairs/allcrosshair/10.png" />
+ <export function="isPlayerInGroup" type="server" />
+ <export function="isPlayerInGroup" type="client" />
+ <export function="getPlayerGroupData" type="server" />
+ <export function="getPlayerDutyItems" type="server" />
+ <export function="isinfaction" type="server"/>
+
+</meta>

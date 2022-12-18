@@ -1,0 +1,14 @@
+<meta>
+
+ <script src="sourceC.lua" type="client" cache="false"/>
+ <script src="stamina.lua" type="server" />
+
+ <file src="files/digital.ttf" />
+ <file src="files/fontawsome.ttf" />
+ <file src="files/roboto.ttf" />
+
+  <file src="files/hud.png" />
+  <file src="files/circle.png" />
+  <file src="files/border.png" />
+
+</meta>

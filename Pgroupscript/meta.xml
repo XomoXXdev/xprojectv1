@@ -1,0 +1,35 @@
+<meta>
+    <script src="sourceC.lua" type="client" cache="false"/>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceDutyC.lua" type="client" cache="false"/>
+    <script src="sourceDutyS.lua" type="server" />
+    <script src="sourceCuffC.lua" type="client" cache="false"/>
+    <script src="sourceCuffS.lua" type="server" />
+    <script src="sourceArrestS.lua" type="server" />
+    <script src="sourceTicketC.lua" type="client" cache="false"/>
+    <script src="sourceTicketS.lua" type="server" />
+	<script src="sourceCgroups.lua" type="client" cache="false"/>
+
+
+    <export function = "takePlayerCuff" type="server" />
+
+    <file src="files/taser.txd" />
+    <file src="files/taser.dff" />
+    <file src="files/cuff.txd" />
+    <file src="files/cuff.dff" />
+    <file src="files/standing_cuffed_back.ifp" />
+	<file src="files/standing_cuffed.ifp" />
+	<file src="files/walking_cuffed.ifp" />
+
+    <file src="files/ticketbook.png" />
+    <file src="files/ticket.png" />
+    <file src="files/freeAdelaide.ttf" />
+    <file src="files/sfcDisplaybold.ttf" />
+	<file src="files/spike.wav" />
+	
+	<file src="files/OpenSansB.ttf" />
+	<file src="files/OpenSansEB.ttf" />
+	<file src="files/opensans.ttf" />
+	<file src="files/OpenSans-Light.ttf" />
+	<file src="files/myriadproregular.ttf" />
+</meta>

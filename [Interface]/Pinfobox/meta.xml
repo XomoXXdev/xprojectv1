@@ -1,0 +1,11 @@
+<meta>
+ 
+ <script src="sourceC.lua" type="client" cache="false"/> 
+ <script src="sourceS.lua" type="server"/>  	
+
+ <file src="files/fontawsome.ttf" />
+ <file src="files/roboto.ttf" />
+ <file src="files/blub.mp3" />
+ <export function="addNotification" type="server" />
+ <export function="addNotification" type="client" />
+</meta>

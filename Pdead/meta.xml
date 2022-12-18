@@ -1,0 +1,14 @@
+<meta>
+
+ <script src="sourceG.lua" type="shared" cache="false"/>
+ <script src="sourceS.lua" type="server" />
+ <script src="sourceC.lua" type="client" cache="false"/>
+
+ <file src="files/roboto.ttf" />
+ <file src="files/fontawsome.ttf" />
+ <file src="files/vignette.png" />
+  <file src="files/alert.png" />
+ <file src="files/music.mp3" />
+
+ <export function="toRespawnCommand" type="server" />
+</meta>

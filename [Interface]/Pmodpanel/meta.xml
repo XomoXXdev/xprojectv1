@@ -1,0 +1,320 @@
+<meta>
+    <script src="sourceC.luac" type="client" />
+    <script src="sourceG.lua" type="shared" />
+    <file src="files/myriadproregular.ttf" />
+    <file src="files/logo.png" />
+    
+    <!-- AutÃ³k -->
+    
+    <file src="vehicle/admiral.dff" />
+    <!-- BMW M5 -->
+    <file src="vehicle/admiral.txd" />
+    <file src="vehicle/merit.dff" />
+    <!-- BMW 750 -->
+    <file src="vehicle/merit.txd" />
+    <file src="vehicle/alpha.dff" />
+    <!-- Audi S5 -->
+    <file src="vehicle/alpha.txd" />
+    <file src="vehicle/turismo.dff" />
+    <!-- Lamborghini Aventador -->
+    <file src="vehicle/turismo.txd" />
+    <file src="vehicle/infernus.dff" />
+    <!-- Ferrari 430 Scuderia -->
+    <file src="vehicle/infernus.txd" />
+    <file src="vehicle/cheetah.dff" />
+    <!-- Nissan GTR -->
+    <file src="vehicle/cheetah.txd" />
+    <file src="vehicle/comet.dff" />
+    <!-- Porsche 911 Turbo -->
+    <file src="vehicle/comet.txd" />
+    <file src="vehicle/supergt.dff" />
+    <!-- McLaren P1 -->
+    <file src="vehicle/supergt.txd" />
+    <file src="vehicle/euros.dff" />
+    <!-- BMW M6 -->
+    <file src="vehicle/euros.txd" />
+    <file src="vehicle/windsor.dff" />
+    <!-- Alfa Romeo Spider -->
+    <file src="vehicle/windsor.txd" />
+    <file src="vehicle/sabre.dff" />
+    <!-- Chevrolet Chevelle SS -->
+    <file src="vehicle/sabre.txd" />
+    <file src="vehicle/buffalo.dff" />
+    <!-- Shelby GT500 -->
+    <file src="vehicle/buffalo.txd" />
+    <file src="vehicle/pony.dff" />
+    <!-- Pony -->
+    <file src="vehicle/pony.txd" />
+    <file src="vehicle/clover.dff" />
+    <!-- Chevrolet Chevelle Rustelle -->
+    <file src="vehicle/clover.txd" />
+    <file src="vehicle/bullet.dff" />
+    <!-- Camaro SS '67 -->
+    <file src="vehicle/bullet.txd" />
+    <file src="vehicle/intruder.dff" />
+    <!-- Toyota Cressida -->
+    <file src="vehicle/intruder.txd" />
+    <file src="vehicle/phoenix.dff" />
+    <!-- Dodge Coronet 440 -->
+    <file src="vehicle/phoenix.txd" />
+    <file src="vehicle/club.dff" />
+    <!-- Golf II -->
+    <file src="vehicle/club.txd" />
+    <file src="vehicle/cadrona.dff" />
+    <!-- Nissan 240 SX -->
+    <file src="vehicle/cadrona.txd" />
+    <file src="vehicle/landstalker.dff" />
+    <!-- Audi Q7 -->
+    <file src="vehicle/landstalker.txd" />
+    <file src="vehicle/bravura.dff" />
+    <!-- Golf V -->
+    <file src="vehicle/bravura.txd" />
+    <file src="vehicle/huntley.dff" />
+    <!-- Range Rover Supercharged -->
+    <file src="vehicle/huntley.txd" />
+    <file src="vehicle/tahoma.dff" />
+    <!-- Peugeot 406 -->
+    <file src="vehicle/tahoma.txd" />
+    <file src="vehicle/sentinel.dff" />
+    <!-- Aud A8 -->
+    <file src="vehicle/sentinel.txd" />
+    <file src="vehicle/washing.dff" />
+    <!-- BMW 760 -->
+    <file src="vehicle/washing.txd" />
+    <file src="vehicle/banshee.dff" />
+    <!-- Mercedes SL65 -->
+    <file src="vehicle/banshee.txd" />
+    <file src="vehicle/premier.dff" />
+    <!-- BMW M5 E39 -->
+    <file src="vehicle/premier.txd" />
+    <file src="vehicle/emperor.dff" />
+    <!-- Audi S4 -->
+    <file src="vehicle/emperor.txd" />
+    <file src="vehicle/stafford.dff" />
+    <!-- Audi RS4 -->
+    <file src="vehicle/stafford.txd" />
+    <file src="vehicle/yosemite.dff" />
+    <!-- Chevrolet Silverado -->
+    <file src="vehicle/yosemite.txd" />
+    <file src="vehicle/towtruck.dff" />
+    <!-- Chevrolet Silverado |VONTATÓ| -->
+    <file src="vehicle/towtruck.txd" />
+    <file src="vehicle/feltzer.dff" />
+    <!-- Honda S2000 -->
+    <file src="vehicle/feltzer.txd" />
+    <file src="vehicle/savanna.dff" />
+    <!-- Chevrolet Impala -->
+    <file src="vehicle/savanna.txd" />
+    <file src="vehicle/tornado.dff" />
+    <!-- chevrolet Bel Air -->
+    <file src="vehicle/tornado.txd" />
+    <file src="vehicle/elegant.dff" />
+    <!-- Rolls Royce -->
+    <file src="vehicle/elegant.txd" />
+    <file src="vehicle/manana.dff" />
+    <!-- Toyota Corolla -->
+    <file src="vehicle/manana.txd" />
+    <!-- Plymouth Cuda Ragtop '70 -->
+    <file src="vehicle/zr350.dff" />
+	
+	<file src="vehicle/audi518.txd" />
+    <file src="vehicle/audi518.dff" />
+	
+    <!-- Mazda RX-7 -->
+    <file src="vehicle/zr350.txd" />
+    <file src="vehicle/fortune.dff" />
+    <!-- Alfa Romeo Brera -->
+    <file src="vehicle/fortune.txd" />
+    <file src="vehicle/blistac.dff" />
+    <!-- Ford Focus -->
+    <file src="vehicle/blistac.txd" />
+    <file src="vehicle/solair.dff" />
+    <!-- Ford Focus RS 2017 -->
+    <file src="vehicle/solair.txd" />
+    <file src="vehicle/primo.dff" />
+    <!-- Mitsubishi Galant VR-4 -->
+    <file src="vehicle/primo.txd" />
+    <file src="vehicle/hotr.dff" />
+    <!-- Mercedes-Benz SLS AMG -->
+    <file src="vehicle/hotr.txd" />
+    <file src="vehicle/majestic.dff" />
+    <!-- Buick Regal GNX -->
+    <file src="vehicle/majestic.txd" />
+    
+    <file src="vehicle/stretch.dff" />
+    <file src="vehicle/stretch.txd" />
+    
+    <file src="vehicle/copcarru.dff" />
+    <file src="vehicle/copcarru.txd" />
+    
+    <file src="vehicle/copcarvg.dff" />
+    <file src="vehicle/copcarvg.txd" />
+    
+    <file src="vehicle/mesa.dff" />
+    <file src="vehicle/mesa.txd" />
+    
+    <file src="vehicle/blade.dff" />
+    <file src="vehicle/blade.txd" />
+    
+    <file src="vehicle/enforcer.dff" />
+    <file src="vehicle/enforcer.txd" />
+    
+    <file src="vehicle/sadler.dff" />
+    <file src="vehicle/sadler.txd" />
+    
+    <file src="vehicle/picador.dff" />
+    <file src="vehicle/picador.txd" />
+    
+    <file src="vehicle/sadlshit.dff" />
+    <file src="vehicle/sadlshit.txd" />
+    
+    <file src="vehicle/glenshit.dff" />
+    <file src="vehicle/glenshit.txd" />
+    
+    <file src="vehicle/fbiranch.dff" />
+    <file src="vehicle/fbiranch.txd" />
+    
+    <file src="vehicle/utility.dff" />
+    <file src="vehicle/utility.txd" />
+    
+    <file src="vehicle/glendale.dff" />
+    <file src="vehicle/glendale.txd" />
+    
+    <file src="vehicle/polmav.dff" />
+    <file src="vehicle/polmav.txd" />
+    
+    <file src="vehicle/hpv1000.dff" />
+    <file src="vehicle/hpv1000.txd" />
+	
+    <file src="vehicle/fcr900.dff" />
+    <file src="vehicle/fcr900.txd" />
+    
+    <file src="vehicle/516.dff" />
+    <file src="vehicle/516.txd" />	
+    <!-- Motorok -->
+    
+    <file src="vehicle/nrg500.dff" />
+    <!-- Kawasaki Ninja ZX 10R -->
+    <file src="vehicle/nrg500.txd" />
+    <file src="vehicle/faggio.dff" />
+    <!-- Faggio -->
+    <file src="vehicle/faggio.txd" />
+    <file src="vehicle/sanchez.dff" />
+    <!-- KTM 350 -->
+    <file src="vehicle/sanchez.txd" />
+    
+    <!-- Frakció jármûvek -->
+    
+    <file src="vehicle/taxi.dff" />
+    <file src="vehicle/taxi.txd" />
+    
+    <file src="vehicle/willard.dff" />
+    <file src="vehicle/willard.txd" />
+    
+    <file src="vehicle/copcarla.dff" />
+    <file src="vehicle/copcarla.txd" />
+    
+    <file src="vehicle/copcarsf.dff" />
+    <file src="vehicle/copcarsf.txd" />
+    
+    <file src="vehicle/ambulan.dff" />
+    <file src="vehicle/ambulan.txd" />
+	
+    <file src="vehicle/journey.dff" />
+    <file src="vehicle/journey.txd" />
+	
+    <file src="vehicle/freeway.dff" />
+    <file src="vehicle/freeway.txd" />
+	
+    <file src="vehicle/bf400.dff" />
+    <file src="vehicle/bf400.txd" />
+	
+    <file src="vehicle/pcj600.dff" />
+    <file src="vehicle/pcj600.txd" />
+	
+    <file src="vehicle/hustler.dff" />
+    <file src="vehicle/hustler.txd" />
+	
+    <file src="vehicle/regina.dff" />
+    <file src="vehicle/regina.txd" />
+	
+    <file src="vehicle/436.dff" />
+    <file src="vehicle/436.txd" />	
+	
+    <file src="vehicle/Broadway.dff" />
+    <file src="vehicle/Broadway.txd" />	
+	
+    <file src="vehicle/barracks.dff" />	
+    <file src="vehicle/barracks.txd" />	
+	
+    <file src="vehicle/cabbie.dff" />	
+    <file src="vehicle/cabbie.txd" />
+	
+    <file src="vehicle/hotdog.dff" />	
+    <file src="vehicle/hotdog.txd" />	
+	
+    <file src="vehicle/dinghy.dff" />	
+    <file src="vehicle/dinghy.txd" />
+	
+    <file src="vehicle/buga.dff" />	
+    <file src="vehicle/buga.txd" />	
+	
+    <file src="vehicle/wayfarer.dff" />	
+    <file src="vehicle/wayfarer.txd" />	
+	
+    <file src="vehicle/489.dff" />	
+    <file src="vehicle/489.txd" />	
+	
+    <file src="vehicle/505.dff" />	
+    <file src="vehicle/505.txd" />
+	
+    <file src="vehicle/patriot.dff" />	
+    <file src="vehicle/patriot.txd" />
+	
+    <file src="vehicle/perennial.dff" />	
+    <file src="vehicle/perennial.txd" />
+	
+    <file src="vehicle/tropic.dff" />	
+    <file src="vehicle/tropic.txd" />
+	
+    <file src="vehicle/fbiszar.dff" />	
+    <file src="vehicle/fbiszar.txd" />
+	
+    <file src="vehicle/virgo.dff" />	
+    <file src="vehicle/virgo.txd" />
+	
+    <file src="vehicle/Camper.dff" />	
+    <file src="vehicle/Camper.txd" />
+	
+    <file src="vehicle/ramszesz.dff" />	
+    <file src="vehicle/ramszesz.txd" />
+
+    <file src="vehicle/vincent.dff" />	
+    <file src="vehicle/vincent.txd" />
+	
+    <!-- OVH Privát autója -->
+    
+    <!-- Maszek részleg -->
+    
+    <file src="vehicle/502.dff" />
+    <!-- OVH Privát autója -->
+    <file src="vehicle/502.txd" />
+    
+    <!--	<file src="vehicle/exh_a_j.dff"/>
+		<file src="vehicle/exh_c_j.dff"/>
+		<file src="vehicle/fbmp_a_j.dff"/>
+		<file src="vehicle/fbmp_c_j.dff"/>
+		<file src="vehicle/rbmp_a_j.dff"/>
+		<file src="vehicle/rbmp_c_j.dff"/>
+		<file src="vehicle/rf_a_j.dff"/>
+		<file src="vehicle/rf_c_j.dff"/>
+		<file src="vehicle/spl_a_j_b.dff"/>	
+		<file src="vehicle/spl_c_j_b.dff"/>
+		<file src="vehicle/wg_l_a_j.dff"/>
+		<file src="vehicle/wg_l_c_j.dff"/>
+		<file src="vehicle/wg_r_a_j.dff"/>
+		<file src="vehicle/wg_r_c_j.dff"/>-->
+    
+    
+    
+</meta>

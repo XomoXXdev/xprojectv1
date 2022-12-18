@@ -1,0 +1,12 @@
+<meta>
+
+<script src="client.lua" type="client" cache="false"/>
+<script src="global.lua" type="shared" cache="false"/>
+
+<file src="files/sansheavy.otf" />
+<file src="files/roboto.ttf" />
+<file src="files/fontawsome.ttf" />
+<file src="files/logo.png" />
+
+    <!-- Animációk -->
+</meta>

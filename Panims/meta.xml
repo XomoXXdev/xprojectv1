@@ -1,0 +1,22 @@
+<meta>
+
+<script src="client.lua" type="client" cache="false"/>
+<script src="server.lua" type="server" />
+<script src="global.lua" type="shared" cache="false"/>
+
+<file src="files/sansheavy.otf" />
+<file src="files/roboto.ttf" />
+<file src="files/fontawsome.ttf" />
+<file src="files/logo.png" />
+
+    <!-- Animációk -->
+
+<file src="anims/beach.ifp" />
+<file src="anims/rifle.ifp" />
+<file src="anims/shotgun.ifp" />
+<file src="anims/uzi.ifp" />
+<file src="anims/buddy.ifp" />
+
+<file src="anims/ped.ifp" />
+<file src="anims/dealer.ifp" />
+</meta>

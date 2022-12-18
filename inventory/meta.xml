@@ -1,0 +1,294 @@
+ <meta>
+	<oop>true</oop>
+	<script src="sourceG.lua" type="shared" cache="false"/>
+	<script src="sourceC.lua" type="client" cache="false"/>
+    <script src="codeDrugC.lua" type="client" cache = "false" />
+	<script src="sourceS.lua" type="server" />
+	
+	<script src="useItem/sourceC.lua" type="client" cache="false"/>
+	<script src="useItem/sourceS.lua" type="server" />
+	
+	<script src="actionbar/sourceC.lua" type="client" cache="false"/>
+	<script src="actionbar/sourceS.lua" type="server" />
+	
+	<script src="trash/sourceC.lua" type="client" cache="false"/>
+	<script src="trash/sourceS.lua" type="server" />
+	
+	<script src="safe/sourceC.lua" type="client" cache="false"/>
+	<script src="safe/sourceS.lua" type="server" />
+	
+    <file src="files/blur.fx" />
+
+     <file src="files/sounds/move.mp3" />
+
+	<script cache="false" type="client" src="frisk/sourceC.lua"/>
+	<script src="frisk/sourceS.lua" type="server" />
+	
+	<script src="craft/sourceC.lua" type="client" cache="false"/>
+	<script src="craft/sourceS.lua" type="server" />
+	
+	<file src="files/search.png" />
+
+	<file src="files/fonts/sansheavy.otf" />
+    <file src="files/fonts/sfpro.ttf" />
+    <file src="files/fonts/roboto.ttf" />
+	<file src="files/fonts/icons.ttf" />
+
+    <file src="files/siren.txd" />
+    <file src="files/siren.dff" />
+    <file src="files/siren.col" />
+    <file src="files/taxi.txd" />
+    <file src="files/taxi.dff" />
+
+	<file src="files/fonts/freeAdelaide.ttf" />
+	<file src="files/fonts/sfcDisplaybold.ttf" />
+
+    <file src="files/images/logo.png" />
+	    <file src="files/images/downlogo.png" />
+    <file src="files/images/ticket.png" />
+	<file src="files/images/normalicons/backpack.png" />
+    <file src="files/images/normalicons/craft.png" />
+    <file src="files/images/normalicons/key.png" />
+    <file src="files/images/normalicons/pocket.png" />
+	<file src="files/images/normalicons/safe.png" />
+	<file src="files/images/normalicons/car.png" />
+    <file src="files/images/miniicons/craft.png" />
+    <file src="files/images/miniicons/backpack.png" />
+	<file src="files/images/eye.png" />
+	<file src="files/images/used.png" />
+
+	<file src="files/items/nopicture.png" />
+	<file src="files/items/-1.png" />
+	<file src="files/items/1.png" />
+	<file src="files/items/2.png" />
+	<file src="files/items/3.png" />
+	<file src="files/items/4.png" />
+	<file src="files/items/5.png" />
+	<file src="files/items/6.png" />
+	<file src="files/items/7.png" />
+	<file src="files/items/8.png" />
+	<file src="files/items/9.png" />
+	<file src="files/items/10.png" />
+	<file src="files/items/11.png" />
+	<file src="files/items/12.png" />
+	<file src="files/items/13.png" />
+	<file src="files/items/14.png" />
+	<file src="files/items/15.png" />
+	<file src="files/items/16.png" />
+	<file src="files/items/17.png" />
+	<file src="files/items/18.png" />
+	<file src="files/items/19.png" />
+	<file src="files/items/20.png" />
+	<file src="files/items/21.png" />
+	<file src="files/items/22.png" />
+	<file src="files/items/23.png" />
+	<file src="files/items/24.png" />
+	<file src="files/items/25.png" />
+	<file src="files/items/26.png" />
+	<file src="files/items/27.png" />
+	<file src="files/items/28.png" />
+	<file src="files/items/29.png" />
+	<file src="files/items/30.png" />
+	<file src="files/items/31.png" />
+	<file src="files/items/32.png" />
+	<file src="files/items/33.png" />
+	<file src="files/items/34.png" />
+	<file src="files/items/35.png" />
+	<file src="files/items/36.png" />
+	<file src="files/items/37.png" />
+	<file src="files/items/38.png" />
+	<file src="files/items/39.png" />
+	<file src="files/items/40.png" />
+	<file src="files/items/41.png" />
+	<file src="files/items/42.png" />
+	<file src="files/items/43.png" />
+	<file src="files/items/44.png" />
+	<file src="files/items/45.png" />
+	<file src="files/items/46.png" />
+	<file src="files/items/47.png" />
+	<file src="files/items/48.png" />
+	<file src="files/items/49.png" />
+	<file src="files/items/50.png" />
+	<file src="files/items/51.png" />
+	<file src="files/items/52.png" />
+	<file src="files/items/53.png" />
+	<file src="files/items/54.png" />
+	<file src="files/items/55.png" />
+	<file src="files/items/56.png" />
+	<file src="files/items/57.png" />
+	<file src="files/items/58.png" />
+	<file src="files/items/59.png" />
+	<file src="files/items/60.png" />
+	<file src="files/items/61.png" />
+	<file src="files/items/62.png" />
+	<file src="files/items/63.png" />
+	<file src="files/items/64.png" />
+	<file src="files/items/65.png" />
+	<file src="files/items/66.png" />
+	<file src="files/items/67.png" />
+	<file src="files/items/68.png" />
+	<file src="files/items/69.png" />
+	<file src="files/items/70.png" />
+	<file src="files/items/71.png" />
+	<file src="files/items/72.png" />
+	<file src="files/items/73.png" />
+	<file src="files/items/74.png" />
+	<file src="files/items/75.png" />
+	<file src="files/items/76.png" />
+	<file src="files/items/77.png" />
+	<file src="files/items/78.png" />
+	<file src="files/items/79.png" />
+	<file src="files/items/80.png" />
+	<file src="files/items/81.png" />
+	<file src="files/items/82.png" />
+	<file src="files/items/83.png" />
+	<file src="files/items/84.png" />
+	<file src="files/items/85.png" />
+	<file src="files/items/86.png" />
+	<file src="files/items/87.png" />
+	<file src="files/items/88.png" />
+	<file src="files/items/89.png" />
+	<file src="files/items/90.png" />
+	<file src="files/items/91.png" />
+	<file src="files/items/92.png" />
+	<file src="files/items/93.png" />
+	<file src="files/items/94.png" />
+	<file src="files/items/95.png" />
+	<file src="files/items/96.png" />
+	<file src="files/items/97.png" />
+	<file src="files/items/98.png" />
+	<file src="files/items/99.png" />
+	<file src="files/items/100.png" />
+	<file src="files/items/101.png" />
+	<file src="files/items/102.png" />
+	<file src="files/items/103.png" />
+	<file src="files/items/104.png" />
+	<file src="files/items/105.png" />
+	<file src="files/items/106.png" />
+	<file src="files/items/107.png" />
+	<file src="files/items/108.png" />
+	<file src="files/items/109.png" />
+	<file src="files/items/110.png" />
+	<file src="files/items/111.png" />
+	<file src="files/items/112.png" />
+	<file src="files/items/113.png" />
+	<file src="files/items/114.png" />
+	<file src="files/items/115.png" />
+	<file src="files/items/116.png" />
+	<file src="files/items/117.png" />
+	<file src="files/items/118.png" />
+	<file src="files/items/119.png" />
+	<file src="files/items/120.png" />
+	<file src="files/items/121.png" />
+	<file src="files/items/122.png" />
+	<file src="files/items/123.png" />
+	<file src="files/items/124.png" />
+	<file src="files/items/125.png" />
+	<file src="files/items/126.png" />
+	<file src="files/items/127.png" />
+	<file src="files/items/128.png" />
+	<file src="files/items/129.png" />
+	<file src="files/items/130.png" />
+	<file src="files/items/131.png" />
+	<file src="files/items/132.png" />
+	<file src="files/items/133.png" />
+	<file src="files/items/134.png" />
+	<file src="files/items/135.png" />
+	<file src="files/items/136.png" />
+	<file src="files/items/143.png" />
+	<file src="files/items/144.png" />
+	<file src="files/items/145.png" />
+	<file src="files/items/146.png" />
+	<file src="files/items/137.png" />
+	<file src="files/items/138.png" />
+	<file src="files/items/139.png" />
+	<file src="files/items/140.png" />
+	<file src="files/items/141.png" />
+	<file src="files/items/142.png" />
+	<file src="files/items/149.png" />
+	<file src="files/items/160.png" />
+	<file src="files/items/161.png" />
+	<file src="files/items/162.png" />
+	<file src="files/items/163.png" />
+	<file src="files/items/164.png" />
+	<file src="files/items/167.png" />
+	<file src="files/items/168.png" />
+	<file src="files/items/170.png" />
+	<file src="files/items/171.png" />
+	<file src="files/items/174.png" />
+	<file src="files/items/175.png" />
+	<file src="files/items/176.png" />
+	<file src="files/items/177.png" />
+	<file src="files/items/178.png" />
+	<file src="files/items/179.png" />
+	<file src="files/items/180.png" />
+	<file src="files/items/181.png" />
+	<file src="files/items/182.png" />
+	<file src="files/items/183.png" />
+	<file src="files/items/157.png" />
+	<file src="files/items/158.png" />
+	<file src="files/items/159.png" />
+	<file src="files/items/147.png" />
+	<file src="files/items/148.png" />
+	<file src="files/items/150.png" />
+	<file src="files/items/151.png" />
+	<file src="files/items/152.png" />
+	<file src="files/items/153.png" />
+	<file src="files/items/154.png" />
+	<file src="files/items/155.png" />
+	<file src="files/items/156.png" />
+	<file src="files/items/165.png" />
+
+	<file src="files/items/21_20.png" />
+	<file src="files/items/21_21.png" />
+	<file src="files/items/21_22.png" />
+	<file src="files/items/21_23.png" />
+	<file src="files/items/21_24.png" />
+	<file src="files/items/21_25.png" />
+	<file src="files/items/21_26.png" />
+
+	<file src="files/items/23_20.png" />
+	<file src="files/items/23_21.png" />
+
+	<file src="files/items/25_20.png" />
+	<file src="files/items/25_21.png" />
+	<file src="files/items/25_22.png" />
+
+	<file src="files/items/32_20.png" />
+	<file src="files/items/32_21.png" />
+	<file src="files/items/32_22.png" />
+	<file src="files/items/32_23.png" />
+
+	<file src="files/items/49_20.png" />
+	<file src="files/items/49_21.png" />
+	<file src="files/items/49_22.png" />
+
+	<export function="setPlayerStat" type="server"/>
+	<export function="setPlayerStat" type="client"/>
+	<export function="getAllItemWeight" type="client"/>
+	<export function="getItemTooltip" type="shared"/>
+	<export function="getItemName" type="shared"/>
+	<export function="getItemImage" type="shared"/>
+	<export function="getCache" type="shared"/>
+	<export function="getItemWeight" type="shared"/>
+	<export function="getTypeElement" type="shared"/>
+	<export function="getItemStackable" type="shared"/>
+	<export function="giveItem" type="server"/>
+	<export function="hasItem" type="client"/>
+	<export function="hasItem" type="server"/>
+	<export function="takeAllItem" type="server"/>
+	<export function="takeItem" type="client"/>
+	<export function="takeItem" type="server"/>
+	<export function="getFreeSlot" type="server"/>
+	<export function="getElementItemsWeight" type="server"/>
+	<export function="setCardMoney" type="server"/>
+	<export function="takeDutyItems" type="server"/>
+	<export function="setActiveSlot" type="client"/>
+	<export function="giveCardMoneyByCardnumber" type="client"/>
+	<export function="friskPage" type="client"/>
+	<export function="findCard" type="server"/>
+	<export function="transferCardMoney" type="server"/>
+	<export function="setCardPinCode" type="server"/>
+	<export function="findPlayerCardsByDbid" type="server"/>
+	<export function="syncItems" type="server"/>
+</meta>

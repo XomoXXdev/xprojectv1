@@ -1,0 +1,11 @@
+<meta>
+    
+    <script type="server" src="taser/sourceS.lua" />
+    <script type="client" src="taser/sourceC.lua" cache="false" />
+    <file src="files/taser.txd" />
+    <file src="files/taser.dff" />
+    <file src="files/taser.ogg" />
+    <file src="files/empty.png" />
+    <file src="files/texturechanger.fx" />
+    
+</meta>

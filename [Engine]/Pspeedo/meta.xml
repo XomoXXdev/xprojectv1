@@ -1,0 +1,36 @@
+<meta>
+    <script src="speedoC.lua" type="client" cache="false"/>
+    <script src="tempomatC.lua" type="client" cache="false"/>
+    <script src="speedoS.lua" type="server" />
+
+        --<script src="indexS.lua" type="server" />
+        --<script src="indexC.lua" type="client" cache="false"/>
+    
+    ---<file src="files/index.mp3" />
+
+    <file src="files/fontawsome.ttf" />
+    <file src="files/roboto.ttf" />
+
+    <file src="files/speedobg.png" />
+    <file src="files/needle.png" />
+    <file src="files/seatbelt1.png" />
+    <file src="files/seatbelt0.png" />
+    <file src="files/blinkerLeftOff.png" />
+    <file src="files/blinkerLeftOn.png" />
+    <file src="files/blinkerRightOff.png" />
+    <file src="files/blinkerRightOn.png" />
+    <file src="files/door.png" />
+    <file src="files/door1.png" />
+    <file src="files/door2.png" />
+    <file src="files/engine.png" />
+    <file src="files/engine2.png" />
+    <file src="files/handbrake.png" />
+    <file src="files/handbrake1.png" />
+
+    <file src="files/fuel0.png" />
+    <file src="files/bottle0.png" />
+
+    <file src="files/fuel1.png" />
+    <file src="files/bottle1.png" />
+
+</meta>

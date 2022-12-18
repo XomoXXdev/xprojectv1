@@ -1,0 +1,12 @@
+<meta>
+ 
+ <script src="sourceC.lua" type="client" cache="false"/>
+ <script src="sourceS.lua" type="server" />
+ <export function="takeMessage" type="client" />
+ <export function="takeMessage" type="server" />
+
+ <file src="files/roboto.ttf" />
+ <file src="files/fontawsome.ttf" />
+ <file src="files/opensans.ttf" />
+
+</meta>

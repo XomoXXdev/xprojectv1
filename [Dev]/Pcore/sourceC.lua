@@ -1,0 +1,97 @@
+fileDelete ("sourceC.lua") 
+local value = {}
+value["disabled"] = false
+
+local comp = {
+    {"ammo"},
+    {"area_name"},
+    {"armour"},
+    {"breath"},
+    {"clock"},
+    {"health"},
+    {"money"},
+    {"radar"},
+    {"vehicle_name"},
+    {"weapon"},
+    {"radio"},
+    {"wanted"},
+}
+
+function isInBox(dX, dY, dSZ, dM, eX, eY)
+    if eX >= dX and eX <= dX+dSZ and eY >= dY and eY <= dY+dM then
+        return true
+    else
+        return false
+    end
+end
+
+function isInSlot(xS,yS,wS,hS)
+    if isCursorShowing() then
+        local cursorX, cursorY = getCursorPosition()
+        if isInBox(xS,yS,wS,hS, cursorX, cursorY) then
+            return true
+        else
+            return false
+        end
+    end 
+end
+
+addEventHandler("onClientRender", getRootElement(), function()
+    setPedControlState("walk", true)
+end)
+
+function headCursorMove(_, _, _, _, x, y, z)
+    if not value["disabled"] then
+        setPedLookAt(localPlayer, x,y,z)
+    end
+end
+addEventHandler("onClientCursorMove", root, headCursorMove)
+
+function toggleHeadMove()
+    value["disabled"] = not value["disabled"]
+    if not value["disabled"] then
+        outputChatBox("[P:SA] #ffffffSikeresen bekapcsoltad a fejmozgatást!", 246,137,52,true)
+    else
+        outputChatBox("[P:SA] #ffffffSikeresen kikapcsolatd a fejmozgatást!", 246,137,52,true)
+    end
+end
+addCommandHandler("togglehead", toggleHeadMove)
+addCommandHandler("toghead", toggleHeadMove)
+addCommandHandler("headmove", toggleHeadMove)
+addCommandHandler("togheadmove", toggleHeadMove)
+
+for k,v in pairs(comp) do 
+    setPlayerHudComponentVisible(v[1],false)
+end 
+
+local disabledObjects = {
+    [2942] = true,
+}
+
+addEventHandler("onClientElementStreamIn", root, function()
+	if getElementType(source) == "object" and disabledObjects[getElementModel(source)] then
+		setObjectBreakable(source, false)
+	end
+end)
+
+addEventHandler("onClientResourceStart", root, function()
+	for k, v in ipairs(getElementsByType("object", root, true)) do
+		if disabledObjects[getElementModel(v)] then
+			setObjectBreakable(v, false)
+		end
+	end
+end)
+
+function onDamage() 
+    if getElementData(source, "ped:name") then
+        cancelEvent()
+    end
+end
+addEventHandler("onClientPedDamage", getRootElement(),onDamage)
+    
+function stealthKill(target)
+    if getElementData(target,"ped:name") then
+        cancelEvent()
+    end
+end
+addEventHandler("onClientPlayerStealthKill", getLocalPlayer(),stealthKill)

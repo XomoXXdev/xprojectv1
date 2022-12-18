@@ -1,0 +1,5 @@
+<meta>
+    <script src="sourceC.lua" type="client" />
+    <script src="sourceS.lua" type="server" />
+    <file src="OpenSans.ttf" />
+</meta>

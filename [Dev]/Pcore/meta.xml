@@ -1,0 +1,9 @@
+<meta>
+	<script src="sourceG.lua" type="shared" cache="false"/>
+	<script src="sourceC.lua" type="client" cache="false"/>
+	<script src="sourceS.lua" type="server" />
+	<script src="firstperson.lua" type="client" cache="false" />
+	<export function="getConnection" type="server" />
+	<export function="findPlayerByPartialNick" type="shared" />
+    <export function="formatMoney" type="shared" />
+</meta>

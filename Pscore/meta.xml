@@ -1,0 +1,10 @@
+<meta>
+
+ <script src="sourceC.lua" type="client" cache="false"/>
+ <script src="sourceS.lua" type="server"/>
+ 
+ <file src="files/roboto.ttf" />
+ <file src="files/sfpro.ttf" />
+ <file src="files/fontawsome.ttf" />
+  <file src="files/logo.png" />
+</meta>

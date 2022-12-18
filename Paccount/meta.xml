@@ -1,0 +1,19 @@
+<meta>
+ <script src="sourceG.lua" type="shared" cache="false"/>
+ <script src="sourceS.lua" type="server" />
+ <script src="sourceC.lua" type="client" cache="false"/>
+<export function="getPlayerCache" type="server"/>
+<export function="getPlayerCacheName" type="server"/>
+ <file src="files/logo.png" />
+ <file src="files/music.mp3" />
+ <file src="files/roboto.ttf" />
+ <file src="files/fontawsome.ttf" />
+ <file src="files/bold.ttf" />
+ <file src="files/opensans.ttf" />
+ <file src="files/OpenSansB.ttf" />
+ <file src="files/OpenSansEB.ttf" />
+ <file src="files/info.png" />
+ <file src="files/left.png" />
+ <file src="files/right.png" />
+ <file src="files/backarrow.png" />
+</meta>

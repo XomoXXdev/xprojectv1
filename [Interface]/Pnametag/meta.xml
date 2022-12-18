@@ -1,0 +1,16 @@
+<meta>
+    <script src="sourceC.lua" type = "client" cache="false"/>
+    <script src="sourceS.lua" type = "server" />
+    <file src="files/OpenSans-Regular.ttf" />
+    <file src="files/OpenSansB.ttf" />
+    <file src="files/roboto.ttf" />
+    <file src="files/fontawsome.ttf" />
+    <file src="files/fontello.ttf" />
+    <file src="files/cuff.png" />
+    <file src="files/console.png" />
+    <file src="files/pm.png" />
+    <file src="files/afk.png" />
+    <file src="files/logo.png" />
+
+    <export function="showItem" type="client" />
+</meta>
